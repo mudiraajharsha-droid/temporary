@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DIV and SPAN Example</title>
+
+	<style>
+		.box {
+			background-color: lightblue;
+			padding: 20px;
+			margin: 20px;
+			border: 2px solid blue;
+		}
+
+		.highlight {
+			color: red;
+			font-weight: bold;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="box">
+		<h1>DIV and SPAN Example</h1>
+
+		<p>
+			This is a <span class="highlight">SPAN element</span>
+			inside a paragraph.
+		</p>
+
+		<p>
+			The <span class="highlight">span</span> changes only a small
+			part of the text.
+		</p>
+	</div>
+
+	<div class="box">
+		<h2>This is another DIV</h2>
+
+		<p>
+			DIV is a block-level element, while
+			<span class="highlight">SPAN is an inline element</span>.
+		</p>
+	</div>
+
+</body>
+</html>
